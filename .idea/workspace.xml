@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de0f422e-ad36-4c67-9932-0bf46110d471" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/p1-bg01.jpg" afterPath="$PROJECT_DIR$/img/p1-bg01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ceshi.iws" />
     <ignored path=".idea/workspace.xml" />

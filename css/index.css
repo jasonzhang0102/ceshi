@@ -5,7 +5,7 @@ html,body{
 }
 #main,.swiper-container,.swiper-wrapper,.swiper-slide{
     width: 100%;
-    height: 1008px;
+    height: auto;
 }
 .swiper-wrapper .slide1{
     background: url(../img/p1-bg01.jpg) no-repeat;
@@ -104,11 +104,11 @@ html,body{
     .slide1 img:nth-child(4){
         width: 320pt;
         height: 7pt;
-        top: 8.4rem;
+        top: 8.3rem;
     }
     .slide1 img:nth-child(5){
-        left: 0.6rem;
-        top: 9.1rem;
+        left: 0.7rem;
+        top: 8.9rem;
         width: 224pt;
         height: auto;
     }
@@ -144,12 +144,12 @@ html,body{
     .slide1 img:nth-child(4){
         width: 254pt;
         left: -0.4rem;
-        top: 8.2rem;
+        top: 8.0rem;
     }
     .slide1 img:nth-child(5){
         width: 192pt;
         height: auto;
         left: 0.7rem;
-        top: 9rem;
+        top: 8.6rem;
     }
 }

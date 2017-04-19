@@ -9,10 +9,6 @@ html,body{
 }
 .swiper-wrapper .slide1{
     background: url(../img/p1-bg01.jpg) no-repeat;
-    background-size: 100%;
-}
-.swiper-wrapper .slide2{
-    background: url(../img/swiper/bg2.jpg) no-repeat;
     background-size: cover;
 }
 .slide1 img{
@@ -117,7 +113,7 @@ html,body{
     html,body{
         width: 100%;
         height: 100%;
-        overflow-x: hidden;/*去掉默认的滚动的条*/
+        overflow-x: hidden;
     }
     #main,.swiper-container,.swiper-wrapper,.swiper-slide{
         width: 100%;

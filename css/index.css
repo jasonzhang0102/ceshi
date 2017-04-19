@@ -128,6 +128,7 @@ html,body{
     html,body{
         width: 100%;
         height: 100%;
+        padding-bottom: 20px;
         overflow-x: hidden;/*去掉默认的滚动的条*/
     }
     #main,.swiper-container,.swiper-wrapper,.swiper-slide{
@@ -222,11 +223,13 @@ html,body{
         width: 100%;
         height: 100%;
         overflow-x: hidden;
+        padding-bottom: 20px;
     }
     #main,.swiper-container,.swiper-wrapper,.swiper-slide{
         width: 100%;
         height: 100%;
     }
+    /*第一页*/
     .slide1 img:nth-child(1){
         width: 192pt;
         height: auto;
@@ -255,5 +258,57 @@ html,body{
         height: auto;
         left: 0.7rem;
         top: 8.4rem;
+    }
+
+    /*第二页*/
+    .slide2 span{
+        position: relative;
+        font-size: 12pt;
+        line-height: 14pt;
+        color: #B50029;
+        width: 48pt;
+        height: 12pt;
+    }
+    .slide2 span img{
+        width: 149pt;
+        height: 3pt;
+    }
+    .slide2 .d1{
+        left: 28pt;
+        top: 215pt;
+    }
+    .slide2 .b1{
+        width: 180pt;
+        height: 51pt;
+        position: relative;
+        left: 29pt;
+        top: 229pt;
+    }
+    .slide2 .b1 dt,.w1{
+        font-size: 7pt;
+        line-height: 12pt;
+        color: #B50029;
+    }
+    .slide2 .b1 .w1{
+        color: #231815;
+    }
+    .slide2 .d2{
+        left: 28pt;
+        top: 271pt;
+    }
+    .slide2 .b2{
+        position: relative;
+        width: 239pt;
+        height: 60pt;
+        left: 24pt;
+        top: 278pt;
+    }
+    .slide2 .b2 dt,dd{
+        font-size: 10pt;
+        line-height: 17pt;
+        color: #B50029;
+    }
+    .slide2 .b2 dd{
+        color: #231815;
     }
 }

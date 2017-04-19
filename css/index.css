@@ -1,14 +1,16 @@
 html,body{
     width: 100%;
     height: 100%;
-    overflow-x: hidden;/*去掉默认的滚动的条*/
+    overflow-x: hidden;
+    /*去掉默认的滚动的条*/
+    padding-bottom: 20px;
 }
 #main,.swiper-container,.swiper-wrapper,.swiper-slide{
     width: 100%;
     height: auto;
 }
 .swiper-wrapper .slide1{
-    background: url(../img/p1-bg01.jpg) no-repeat;
+    background: url(../img/bj_01.jpg) no-repeat;
     background-size: cover;
 }
 .slide1 img{
@@ -38,6 +40,9 @@ html,body{
 #page1 img{
     opacity: 1;
 }
+/*#white{
+    background-color: ;
+}*/
 #page1 img:nth-child(1){
     -webkit-animation:bounceInLeft 1s 0s both;
     animation:bounceInLeft 1s 0s both;

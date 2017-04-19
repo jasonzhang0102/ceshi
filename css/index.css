@@ -128,13 +128,13 @@ html,body{
     html,body{
         width: 100%;
         height: 100%;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
         overflow-x: hidden;/*去掉默认的滚动的条*/
     }
     #main,.swiper-container,.swiper-wrapper,.swiper-slide{
         width: 100%;
         height: 100%;
-        padding-bottom: 40px;
+
     }
     /*第一页*/
     .slide1 img:nth-child(1){
@@ -181,14 +181,14 @@ html,body{
     }
     .slide2 .d1{
         left: 28pt;
-        top: 230pt;
+        top: 218pt;
     }
     .slide2 .b1{
         width: 247pt;
         height: 77pt;
         position: relative;
         left: 28pt;
-        top: 235pt;
+        top: 223pt;
     }
     .slide2 .b1 dt,.w1{
         font-size: 10pt;
@@ -200,7 +200,7 @@ html,body{
     }
     .slide2 .d2{
         left: 28pt;
-        top: 269pt;
+        top: 253pt;
     }
     .slide2 .b2{
         position: relative;

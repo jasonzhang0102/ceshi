@@ -134,6 +134,7 @@ html,body{
     #main,.swiper-container,.swiper-wrapper,.swiper-slide{
         width: 100%;
         height: 100%;
+        padding-bottom: 40px;
     }
     /*µÚÒ»Ò³*/
     .slide1 img:nth-child(1){
@@ -206,7 +207,7 @@ html,body{
         width: 239pt;
         height: 60pt;
         left: 29pt;
-        top: 274pt;
+        top: 256pt;
     }
     .slide2 .b2 dt,dd{
         font-size: 10pt;

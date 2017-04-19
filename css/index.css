@@ -1,17 +1,12 @@
 html,body{
     width: 100%;
-    /*height: 100%;*/
+    height: 100%;
     overflow-x: hidden;
-    /*去掉默认的滚动的条*/
-
 }
 #main,.swiper-container,.swiper-wrapper,.swiper-slide{
     width: 100%;
+    height: 100%;
 
-}
-.slide1{
-    width: 640px;
-    height: 1008px;
 }
 h2{
     font-size: 24px;
@@ -156,97 +151,132 @@ p{
 
 
 @media all and (max-width: 640px) {
-    html,body{
-        width: 100%;
-        height: 100%;
-        padding-bottom: 20px;
-        overflow-x: hidden;/*去掉默认的滚动的条*/
+    h2{
+        font-size: 0.24rem;
+        color: #B50029;
+        margin: 0.20rem 0;
     }
-    #main,.swiper-container,.swiper-wrapper,.swiper-slide{
-        width: 100%;
-        height: 100%;
-
+    h3{
+        font-size: 0.19rem;
+        color: #B50029;
+        margin: 0.10rem 0;
+    }
+    p{
+        font-size: 0.19rem;
+        color: #000;
+        line-height: 0.33rem;
+    }
+    .con{
+        margin: 0.35rem auto;
+        width: 5.30rem;
     }
     /*第一页*/
-    .slide1 img:nth-child(1){
-        width: 244pt;
-        height: auto;
-        left: 0.5rem;
-        top: 5.7rem;
+    .slide1 .con{
+        width: 6.4rem;
+        margin-top: 5.3rem;
     }
-    .slide1 img:nth-child(2){
-        top: 7rem;
-        width: 240pt;
-        left: 0.6rem;
+    .slide1 .con .r-1{
+        width: 4.88rem;
+        height: 0.87rem;
+        margin: 0.09rem 0.74rem;
     }
-    .slide1 img:nth-child(3){
-        left: 0.5rem;
-        top: 7.4rem;
-        width: 239pt;
-        height: auto;
+    .slide1 .con .r-2{
+        width: 4.79rem;
+        height: 0.02rem;
+        margin: 0.09rem 0.74rem;
     }
-    .slide1 img:nth-child(4){
-        width: 320pt;
-        height: 7pt;
-        top: 8.2rem;
+    .slide1 .con .r-3{
+        width: 4.78rem;
+        height: 0.39rem;
+        margin: 0.09rem 0.74rem;
     }
-    .slide1 img:nth-child(5){
-        left: 0.7rem;
-        top: 8.7rem;
-        width: 224pt;
-        height: auto;
+    .slide1 .con .r-4{
+        width: 6.36rem;
+        height: 0.14rem;
+        margin: 0.18rem 0;
+    }
+    .slide1 .con .r-5{
+        width: 5.31rem;
+        height: 1.33rem;
+        margin: 0.09rem 0.55rem;
+    }
+    /*第二页*/
+    .slide2 .con{
+        margin-top: 5.30rem;
+    }
+    .slide2 .con h2 img{
+        width: 4.20rem;
+        height: 0.06rem;
     }
 
-    /*第二页*/
-    .slide2 span{
-        position: relative;
-        font-size: 12pt;
-        line-height: 14pt;
+    /*第三页*/
+    .slide3,.slide4,.slide5{
+        overflow: auto;
+        width: 6.40rem;
+    }
+    .slide3 .p3-1 dt{
+        margin: 0.02rem 0.10rem;
+    }
+    .slide3 .p3-1 img{
+        width: 5.16rem;
+        height: 1.83rem;
+    }
+    .slide3 .p3-3 img{
+        width: 5.16rem;
+        height: 6.05rem;
+    }
+    /*第四页*/
+    .slide4 .p-s{
+        font-size: 0.16rem;
+        margin: 0.08rem 0 0.11rem;
+        line-height: 0.28rem;
+    }
+    .s1{
+        color: #000;
+        line-height: 0;
+    }
+    .slide4 .img1{
+        width: 5.41rem;
+        height: 5.89rem;
+    }
+    .slide4 .con h2 img{
+        width: 4.09rem;
+        height: 0.06rem;
+    }
+    .slide4 .con .p4-2{
+        font-size: 0.19rem;
         color: #B50029;
-        width: 48pt;
-        height: 12pt;
+        margin: 0.10rem 0;
     }
-    .slide2 span img{
-        width: 210pt;
-        height: 3pt;
+    /*第五页*/
+
+    .p-h{
+        margin-top: 0.30rem;
     }
-    .slide2 .d1{
-        left: 28pt;
-        top: 218pt;
+    .slide5 img{
+        margin: 0.13rem 0;
     }
-    .slide2 .b1{
-        width: 247pt;
-        height: 77pt;
-        position: relative;
-        left: 28pt;
-        top: 223pt;
+    /*第六页*/
+    .slide6 p{
+        font-size: 0.19rem;
+        color: #000;
+        line-height: 0.33rem;
+        padding: 0.05rem 0;
     }
-    .slide2 .b1 dt,.w1{
-        font-size: 10pt;
-        line-height: 17pt;
-        color: #B50029;
+
+    .slide6 .p-i img{
+        width: 1.47rem;
+        height: 1.47rem;
+        margin: 0.75rem 0.09rem;
+
     }
-    .slide2 .b1 .w1{
-        color: #231815;
+    .slide6 .p-i .o1{
+        margin-left: 0.23rem;
     }
-    .slide2 .d2{
-        left: 28pt;
-        top: 253pt;
-    }
-    .slide2 .b2{
-        position: relative;
-        width: 239pt;
-        height: 60pt;
-        left: 29pt;
-        top: 256pt;
-    }
-    .slide2 .b2 dt,dd{
-        font-size: 10pt;
-        line-height: 17pt;
-        color: #B50029;
-    }
-    .slide2 .b2 dd{
-        color: #231815;
+    .slide6 .con .p-x .p-x2{
+        width: 4.15rem;
+        height: 0.03rem;
+        margin-left: 0.05rem;
     }
 
 }

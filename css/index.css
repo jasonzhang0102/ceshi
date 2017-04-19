@@ -10,7 +10,7 @@ html,body{
     height: auto;
 }
 .swiper-wrapper .slide1{
-    background: url(../img/bj_01.jpg) no-repeat;
+    background: url(../img/p1-bg01.jpg) no-repeat;
     background-size: cover;
 }
 .slide1 img{

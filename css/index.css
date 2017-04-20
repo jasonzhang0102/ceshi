@@ -283,96 +283,11 @@ p{
 
 }
 @media all and (max-width: 320px) {
-    html,body{
-        width: 100%;
-        height: 100%;
-        overflow-x: hidden;
-        padding-bottom: 20px;
+    .slide2 .con{
+        margin-top: 5.30rem;
     }
-    #main,.swiper-container,.swiper-wrapper,.swiper-slide{
-        width: 100%;
-        height: 100%;
-    }
-    /*第一页*/
-    .slide1 img:nth-child(1){
-        width: 192pt;
-        height: auto;
-        left: 0.7rem;
-        top: 5.7rem;
-    }
-    .slide1 img:nth-child(2){
-        width: 192pt;
-        height: 1pt;
-        left: 0.7rem;
-        top: 6.8rem;
-    }
-    .slide1 img:nth-child(3){
-        width: 190pt;
-        height: auto;
-        left: 0.7rem;
-        top: 7.1rem;
-    }
-    .slide1 img:nth-child(4){
-        width: 254pt;
-        left: -0.4rem;
-        top: 7.9rem;
-    }
-    .slide1 img:nth-child(5){
-        width: 192pt;
-        height: auto;
-        left: 0.7rem;
-        top: 8.4rem;
-    }
-
-    /*第二页*/
-    .slide2 span{
-        position: relative;
-        font-size: 12pt;
-        line-height: 14pt;
-        color: #B50029;
-        width: 48pt;
-        height: 12pt;
-    }
-    .slide2 span img{
-        width: 149pt;
-        height: 3pt;
-    }
-    .slide2 .d1{
-        left: 28pt;
-        top: 215pt;
-    }
-    .slide2 .b1{
-        width: 180pt;
-        height: 51pt;
-        position: relative;
-        left: 29pt;
-        top: 229pt;
-    }
-    .slide2 .b1 dt,.w1{
-        font-size: 7pt;
-        line-height: 12pt;
-        color: #B50029;
-    }
-    .slide2 .b1 .w1{
-        color: #231815;
-    }
-    .slide2 .d2{
-        left: 28pt;
-        top: 271pt;
-    }
-    .slide2 .b2{
-        position: relative;
-        width: 239pt;
-        height: 60pt;
-        left: 24pt;
-        top: 278pt;
-    }
-    .slide2 .b2 dt,dd{
-        font-size: 10pt;
-        line-height: 17pt;
-        color: #B50029;
-    }
-    .slide2 .b2 dd{
-        color: #231815;
+    .slide2 .con h2 img{
+        width: 4.20rem;
+        height: 0.06rem;
     }
 }

@@ -282,3 +282,31 @@ p{
     }
 
 }
+@media all and (max-width: 320px){
+    h2{
+        font-size: 0.24rem;
+        color: #B50029;
+        margin: 0.20rem 0;
+    }
+    h3{
+        font-size: 0.19rem;
+        color: #B50029;
+        margin: 0.10rem 0;
+    }
+    p{
+        font-size: 0.19rem;
+        color: #000;
+        line-height: 0.33rem;
+    }
+    .con{
+        margin: 0.35rem auto;
+        width: 5.30rem;
+    }
+    .slide1 .con{
+        width: 6.4rem;
+        margin-top: 5.0rem;
+    }
+    .slide2 .con{
+        margin-top: 5.0rem;
+    }
+}

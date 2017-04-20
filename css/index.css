@@ -214,7 +214,7 @@ p{
 
     /*ตฺศýาณ*/
     .slide3,.slide4,.slide5{
-        overflow: auto;
+        overflow-y: scroll
         width: 6.40rem;
     }
     .slide3 .p3-1 dt{

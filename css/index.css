@@ -31,10 +31,10 @@ p{
     background: url(../img/p1-bg01.jpg) no-repeat;
     background-size: cover;
 }
-.swiper-wrapper .slide2{
+/*.swiper-wrapper .slide2{
     background: url(../img/p2-bg-2.jpg) no-repeat;
     background-size: cover;
-}
+}*/
 /*第一页*/
 .slide1 .con{
     width: 640px;
@@ -67,9 +67,12 @@ p{
 }
 /*第二页*/
 .slide2 .con{
-    margin-top: 530px;
+    margin-top: -530px;
 }
-
+.slide2 .bj{
+    width: 100%;
+    height: 100%;
+}
 /*第三页*/
 .slide2,.slide3,.slide4,.slide5{
     overflow: auto;
@@ -202,7 +205,7 @@ p{
     }
     /*第二页*/
     .slide2 .con{
-        margin-top: 5.30rem;
+        margin-top: -5.30rem;
     }
     .slide2 .con h2 img{
         width: 4.20rem;
@@ -307,6 +310,6 @@ p{
         margin-top: 5.0rem;
     }
     .slide2 .con{
-        margin-top: 5.0rem;
+        margin-top: -6.5rem;
     }
 }
